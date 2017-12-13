@@ -4,6 +4,6 @@ node {
   }
 
   stage("Deploiement appli") {
-    sh "cat ./Jenkinsfile "
+    sh "echo Deploiement appli"
   }
 }
